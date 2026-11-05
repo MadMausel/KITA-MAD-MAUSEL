@@ -207,6 +207,24 @@ select.is-set { border-color: var(--accent); }
 .card .desc { color: var(--muted); font-size: 14px; }
 .card .area { display: flex; align-items: center; gap: 8px; color: var(--muted); font-size: 13px; }
 
+/* „Neu“-Schild, ragt über die obere rechte Ecke der Karte */
+.badge-neu {
+  position: absolute;
+  top: -10px;
+  right: -8px;
+  z-index: 2;
+  padding: 2px 11px;
+  border-radius: 999px;
+  background: var(--accent);
+  color: var(--accent-ink);
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.45);
+  pointer-events: none;
+}
+
 .star {
   position: absolute;
   top: 8px;

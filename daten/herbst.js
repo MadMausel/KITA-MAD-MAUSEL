@@ -1,8 +1,9 @@
 // Herbst-Angebote für die Mathematische Bildung (ergänzt am 2026-11-05).
+// neu: Datum der Aufnahme. Die Karte zeigt dann einige Wochen lang „Neu“ (siehe NEU_TAGE in app.js).
 window.fuegeHinzu("mathe", "", "0-3", [
   {
     id: "herbst-u3-igel", t: "Der Igel hat Hunger", k: "Die Kinder füttern einen Stoffigel mit laminierten Beeren, Käfern und Würmern und zählen dabei mit.",
-    kat: "Wahrnehmungsspiele", jz: ["herbst"], d: 15, v: 20, g: ["einzel", "klein"], o: ["drinnen"], m: "besonders",
+    kat: "Wahrnehmungsspiele", jz: ["herbst"], neu: "2026-11-05", d: 15, v: 20, g: ["einzel", "klein"], o: ["drinnen"], m: "besonders",
     gz: "Die Kinder erweitern ihre Zählkompetenz und machen erste Erfahrungen mit Mengen.",
     fz: ["Die Kinder hören und sprechen Zahlwörter, indem sie das Futter Stück für Stück in den Napf legen und die Fachkraft mitzählt.", "Die Kinder erleben Mengenbegriffe wie „noch eins“, „viele“ und „alle weg“, indem sie den Napf füllen und leeren."],
     s: "Die Futterkarten groß zuschneiden (mindestens so groß wie eine Kinderhand), die Ecken abrunden und auf abgeknabberte Folie achten. Stoffigel ohne abnehmbare Knopfaugen verwenden.",
@@ -12,7 +13,7 @@ window.fuegeHinzu("mathe", "", "0-3", [
   },
   {
     id: "herbst-u3-aepfel", t: "Äpfel in den Korb", k: "Die Kinder räumen Äpfel von einem Korb in den anderen, zählen mit und spüren, wie schwer ein voller Korb ist.",
-    kat: "Wahrnehmungsspiele", jz: ["herbst"], d: 15, v: 5, g: ["einzel", "klein"], o: ["drinnen", "draussen"], m: "alltag",
+    kat: "Wahrnehmungsspiele", jz: ["herbst"], neu: "2026-11-05", d: 15, v: 5, g: ["einzel", "klein"], o: ["drinnen", "draussen"], m: "alltag",
     gz: "Die Kinder sammeln Erfahrungen mit Mengen und Gewicht.",
     fz: ["Die Kinder erleben „voll“ und „leer“, indem sie Äpfel von einem Korb in einen anderen legen.", "Die Kinder spüren den Unterschied zwischen schwer und leicht, indem sie einen vollen und einen leeren Korb anheben."],
     s: "Die Äpfel vorher waschen, denn junge Kinder beißen gern hinein. Kleine, leichte Körbe verwenden.",
@@ -22,7 +23,7 @@ window.fuegeHinzu("mathe", "", "0-3", [
   },
   {
     id: "herbst-u3-laubhaufen", t: "Großer Haufen, kleiner Haufen", k: "Die Kinder tragen draußen Laub zusammen, vergleichen große und kleine Haufen und springen hinein.",
-    kat: "Bewegungsspiele", jz: ["herbst"], d: 20, v: 5, g: ["klein", "gross"], o: ["draussen"], m: "alltag",
+    kat: "Bewegungsspiele", jz: ["herbst"], neu: "2026-11-05", d: 20, v: 5, g: ["klein", "gross"], o: ["draussen"], m: "alltag",
     gz: "Die Kinder erfahren Mengen und Größen mit dem ganzen Körper.",
     fz: ["Die Kinder vergleichen Mengen, indem sie einen großen und einen kleinen Laubhaufen bauen.", "Die Kinder hören Mengenwörter, indem die Fachkraft beim Sammeln „mehr“, „weniger“ und „ganz viel“ sagt."],
     s: "Das Laub vorher auf Äste, Steine, Glas und Tierkot prüfen. Kein Laub vom Straßenrand nehmen. Danach Hände waschen.",
@@ -32,7 +33,7 @@ window.fuegeHinzu("mathe", "", "0-3", [
   },
   {
     id: "herbst-u3-kuerbisse", t: "Kürbisse von groß bis klein", k: "Die Kinder vergleichen Kürbisse in verschiedenen Größen, heben und rollen sie und legen sie in eine Reihe.",
-    kat: "Wahrnehmungsspiele", jz: ["herbst"], d: 15, v: 5, g: ["klein"], o: ["drinnen", "draussen"], m: "alltag",
+    kat: "Wahrnehmungsspiele", jz: ["herbst"], neu: "2026-11-05", d: 15, v: 5, g: ["klein"], o: ["drinnen", "draussen"], m: "alltag",
     gz: "Die Kinder vergleichen Größen und Gewichte und bringen Dinge in eine Ordnung.",
     fz: ["Die Kinder vergleichen Größen, indem sie Kürbisse nebeneinanderlegen und anheben.", "Die Kinder bilden eine einfache Reihe, indem sie die Kürbisse mit Hilfe vom kleinsten bis zum größten ordnen."],
     s: "Kleine Speisekürbisse verwenden, keine Zierkürbisse. Zierkürbisse enthalten Bitterstoffe und sind giftig. Große Kürbisse nur rollen, nicht tragen lassen, damit niemandem einer auf den Fuß fällt.",
@@ -44,7 +45,7 @@ window.fuegeHinzu("mathe", "", "0-3", [
 window.fuegeHinzu("mathe", "", "3-6", [
   {
     id: "herbst-e-kastanienkarten", t: "Kastanien auf die Karte", k: "Die Kinder zählen Kastanien ab und legen sie auf laminierte Karten mit Zahlen, Punktbildern und Mustern.",
-    kat: "Wahrnehmungsspiele", jz: ["herbst"], d: 20, v: 20, g: ["einzel", "klein"], o: ["drinnen", "draussen"], m: "besonders",
+    kat: "Wahrnehmungsspiele", jz: ["herbst"], neu: "2026-11-05", d: 20, v: 20, g: ["einzel", "klein"], o: ["drinnen", "draussen"], m: "besonders",
     gz: "Die Kinder erweitern ihre Erfahrungen mit Zahlen und Mengen und nehmen Muster und Strukturen wahr.",
     fz: ["Die Kinder ordnen Zahlen und Mengen einander zu, indem sie die passende Anzahl Kastanien auf eine Zahlenkarte legen.", "Die Kinder erkennen Strukturen, indem sie Kastanien auf vorgegebene Punktbilder legen und feststellen, dass gleiche Mengen unterschiedlich aussehen können."],
     s: "Kastanien sind Kleinteile. Das Angebot nicht mit Kindern durchführen, die Dinge noch in den Mund nehmen. Rosskastanien sind nicht zum Essen geeignet.",
@@ -54,7 +55,7 @@ window.fuegeHinzu("mathe", "", "3-6", [
   },
   {
     id: "herbst-e-zahlenbaum", t: "Unser Zahlenbaum", k: "Die Kinder sortieren gesammelte Blätter nach Farbe, zählen sie und kleben an jeden Ast so viele Blätter, wie die Zahl daran zeigt.",
-    kat: "Gestalten", jz: ["herbst"], d: 30, v: 20, g: ["klein"], o: ["drinnen"], m: "besonders",
+    kat: "Gestalten", jz: ["herbst"], neu: "2026-11-05", d: 30, v: 20, g: ["klein"], o: ["drinnen"], m: "besonders",
     gz: "Die Kinder sortieren nach Merkmalen, zählen und ordnen Mengen einer vorgegebenen Zahl zu.",
     fz: ["Die Kinder sortieren nach Farbe, indem sie die Blätter auf rote, gelbe, braune und grüne Körbe verteilen.", "Die Kinder üben die Eins-zu-eins-Zuordnung, indem sie an einen Ast genau so viele Blätter kleben, wie die Zahl daneben angibt."],
     s: "Nur Laub vom Boden sammeln und nach dem Sammeln Hände waschen. Kinderkleister oder Klebestifte ohne Lösungsmittel verwenden.",
@@ -63,33 +64,33 @@ window.fuegeHinzu("mathe", "", "3-6", [
     sc: ["Die Kinder betrachten den fertigen Baum. Die Fachkraft fragt: „Welche Farbe gibt es am meisten? Wie viele Blätter hat unser Baum zusammen?“", "Der Rückblick würdigt die gemeinsame Arbeit. Das Zählen aller Blätter fordert ältere Kinder heraus, jüngere dürfen mitzählen, so weit sie kommen.", "Kleingruppe vor dem Baum", "Fertiger Baum"]
   },
   {
-    id: "herbst-e-apfelstern", t: "Der Stern im Apfel", k: "Die Kinder entdecken den versteckten Stern im quer geschnittenen Apfel, zählen Zacken und Kerne und teilen Äpfel gerecht auf.",
-    kat: "Experimente", jz: ["herbst"], d: 30, v: 10, g: ["klein"], o: ["drinnen"], m: "alltag",
-    gz: "Die Kinder entdecken Zahlen, Formen und das Teilen an einem Alltagsgegenstand.",
-    fz: ["Die Kinder zählen und vergleichen, indem sie die Zacken des Sterns und die Kerne in verschiedenen Äpfeln zählen.", "Die Kinder machen erste Erfahrungen mit Hälften und Vierteln, indem sie Äpfel gerecht für alle aufteilen."],
-    s: "Das Schneiden übernimmt die Fachkraft. Ältere Kinder schneiden höchstens weiche Stücke mit einem Kindermesser auf einem Brett und unter direkter Aufsicht. Allergien vorher mit den Eltern klären. Apfelkerne nicht essen.",
-    e: ["Die Fachkraft hält einen Apfel hoch: „In diesem Apfel ist ein Stern versteckt. Wer weiß, wo?“ Die Kinder raten.", "Das Rätsel weckt Neugier. Die meisten Kinder kennen Äpfel nur längs geschnitten und sind von der Entdeckung überrascht.", "Kleingruppe am Tisch", "Äpfel verschiedener Sorten"],
-    h: ["Die Fachkraft schneidet den Apfel quer durch. Die Kinder entdecken den Stern und zählen die Zacken. Weitere Äpfel werden quer geschnitten: Haben alle fünf Zacken? Die Kinder zählen die Kerne in jedem Apfel und vergleichen. Danach überlegen sie, wie ein Apfel für zwei oder vier Kinder gerecht geteilt wird, und die Fachkraft schneidet nach ihren Vorschlägen.", "Die Fünf im Apfelstern ist eine verlässliche Zahl, die Anzahl der Kerne dagegen schwankt. Das Vergleichen zeigt, dass manche Dinge gleich bleiben und andere nicht. Das gerechte Teilen ist eine erste Begegnung mit Brüchen.", "Kleingruppe", "Äpfel, Messer, Brett, Teller"],
-    sc: ["Die Apfelstücke werden gemeinsam gegessen. Wer möchte, druckt mit einer Apfelhälfte und Farbe einen Stern auf Papier.", "Das Essen belohnt die Arbeit. Der Apfeldruck hält die Entdeckung fest und kann mit den gezählten Kernen beschriftet werden.", "Kleingruppe am Tisch", "Teller, optional Fingerfarbe und Papier"]
+    id: "herbst-e-blaetterreifen", t: "Rot, gezackt oder beides?", k: "Die Kinder sortieren Blätter in Gymnastikreifen nach Farbe und Form und entdecken, was in die Überschneidung zweier Reifen gehört.",
+    kat: "Wahrnehmungsspiele", jz: ["herbst"], neu: "2026-11-05", d: 25, v: 5, g: ["klein"], o: ["draussen", "drinnen"], m: "alltag",
+    gz: "Die Kinder ordnen Dinge nach Merkmalen und entdecken, dass etwas zu zwei Gruppen zugleich gehören kann.",
+    fz: ["Die Kinder sortieren nach einem Merkmal, indem sie Blätter nach Farbe oder Form in einen Reifen legen.", "Die Kinder verbinden zwei Merkmale, indem sie Blätter, die zu beiden Gruppen passen, in die Überschneidung zweier Reifen legen."],
+    s: "Nur Laub vom Boden sammeln und vorher auf Äste, Glas und Tierkot prüfen. Hände danach waschen.",
+    e: ["Die Kinder sammeln Blätter und schütten sie auf ein Tuch. Die Fachkraft fragt: „Was ist bei den Blättern gleich, was ist anders?“ Die Kinder finden Merkmale: Farbe, Größe, glatter oder gezackter Rand, Form wie eine Hand.", "Wenn die Kinder die Merkmale selbst finden, verstehen sie besser, wonach sortiert wird. Das ist der erste Schritt zum Ordnen.", "Kleingruppe im Kreis", "Körbe, Tuch"],
+    h: ["Zuerst liegt ein Reifen da: „Alle gelben Blätter kommen hinein.“ Dann zwei Reifen: einer für rote, einer für gezackte Blätter. Wohin mit einem roten, gezackten Blatt? Die Kinder schieben die Reifen übereinander, so entsteht in der Mitte ein Bereich für Blätter, die beides sind. Was weder rot noch gezackt ist, bleibt draußen. Danach sortiert ein Kind heimlich nach einer eigenen Regel, und die anderen raten die Regel.", "Die Überschneidung macht „und“ sowie „entweder, oder“ sichtbar und ist eine Grundlage für logisches Denken. Beim Regel-Raten dreht sich die Aufgabe um: Die Kinder müssen genau hinsehen, was die Blätter in einem Reifen gemeinsam haben.", "Kleingruppe", "Zwei bis drei Gymnastikreifen, gesammelte Blätter"],
+    sc: ["Die Kinder zählen, wie viele Blätter in jedem Bereich liegen, und vergleichen: Wo sind die meisten, wo die wenigsten? Ein Foto hält das Ergebnis fest.", "Das Zählen verbindet das Sortieren mit Mengen. Das Foto erinnert später daran, wie die Reifen gelegt waren.", "Kleingruppe", "Optional Kamera"]
   },
   {
-    id: "herbst-e-waage", t: "Wie viele Eicheln wiegt eine Kastanie?", k: "Die Kinder bauen eine einfache Waage aus einem Kleiderbügel und vergleichen das Gewicht von Herbstfrüchten.",
-    kat: "Experimente", jz: ["herbst"], d: 25, v: 15, g: ["klein"], o: ["drinnen"], m: "alltag",
-    gz: "Die Kinder vergleichen Gewichte und verbinden sie mit Mengen.",
-    fz: ["Die Kinder vergleichen Gewichte, indem sie Herbstfrüchte auf die Waage legen und beobachten, welche Seite nach unten geht.", "Die Kinder stellen Vermutungen an und prüfen sie, indem sie zählen, wie viele Eicheln nötig sind, damit die Waage gerade hängt."],
-    s: "Eicheln und Kastanien sind Kleinteile und nicht essbar. Das Angebot nicht mit Kindern durchführen, die Dinge noch in den Mund nehmen. Hände danach waschen.",
-    e: ["Die Fachkraft hält eine Kastanie und eine Eichel in den Händen und wiegt sie: „Welche ist schwerer? Wie können wir das herausfinden?“", "Die Frage lädt die Kinder ein, selbst eine Lösung zu suchen. Das Schätzen mit den Händen ist eine erste Form des Wiegens.", "Kleingruppe am Tisch", "Kastanien, Eicheln"],
-    h: ["Gemeinsam wird eine Waage gebaut: An beide Enden eines Kleiderbügels kommt je ein Becher an einer Schnur. Der Bügel hängt an einer Stuhllehne. Die Kinder legen links eine Kastanie und rechts Eicheln hinein, eine nach der anderen, bis die Waage gerade hängt. Vorher schätzt jedes Kind, wie viele Eicheln es brauchen wird. Danach probieren sie andere Paare aus, zum Beispiel Zapfen und Bucheckern.", "Die Waage macht Gewicht sichtbar. Das Schätzen vor dem Ausprobieren regt zum Nachdenken an, und das Nachzählen zeigt, wer nah dran war. Unterschiedliche Früchte führen zu unterschiedlichen Ergebnissen.", "Kleingruppe", "Kleiderbügel, zwei Becher, Schnur, Herbstfrüchte"],
-    sc: ["Die Ergebnisse werden auf einem Plakat festgehalten: Eine gemalte Kastanie, daneben so viele Striche, wie Eicheln nötig waren.", "Das Plakat macht die Ergebnisse für alle sichtbar und lässt sich bei weiteren Versuchen ergänzen. Die Waage bleibt für eigenes Ausprobieren stehen.", "Kleingruppe", "Plakat, Stifte"]
+    id: "herbst-e-kuerbiskerne", t: "Wie viele Kerne hat der Kürbis?", k: "Die Kinder schätzen, wie viele Kerne in einem Kürbis stecken, und zählen sie dann geordnet in Zehnergruppen.",
+    kat: "Experimente", jz: ["herbst"], neu: "2026-11-05", d: 30, v: 10, g: ["klein"], o: ["drinnen"], m: "alltag",
+    gz: "Die Kinder schätzen Mengen und lernen, große Mengen durch Bündeln geordnet zu zählen.",
+    fz: ["Die Kinder schätzen eine große Menge, indem sie vor dem Zählen eine Vermutung abgeben und festhalten.", "Die Kinder zählen strukturiert, indem sie die Kerne in Zehnergruppen in Eierkartons legen und die vollen Kartons zählen."],
+    s: "Den Kürbis öffnet die Fachkraft. Einen Speisekürbis verwenden, keinen Zierkürbis, denn Zierkürbisse enthalten giftige Bitterstoffe. Kürbiskerne sind Kleinteile: nicht mit Kindern durchführen, die Dinge noch in den Mund nehmen. Hände danach waschen.",
+    e: ["Ein Kürbis steht auf dem Tisch. Die Fachkraft klopft darauf: „Da drin sind ganz viele Kerne versteckt. Was meint ihr, wie viele?“ Jedes Kind nennt eine Zahl, die Fachkraft schreibt sie mit dem Namen auf ein Plakat.", "Beim Schätzen gibt es kein Richtig oder Falsch. Auch „ganz, ganz viele“ ist eine Antwort. Das Aufschreiben macht den späteren Vergleich möglich.", "Kleingruppe am Tisch", "Speisekürbis, Plakat, Stift"],
+    h: ["Die Fachkraft schneidet den Kürbis auf. Die Kinder holen die Kerne mit Löffeln und Händen heraus und spülen sie in einem Sieb ab. Dann fragt die Fachkraft: „Wie zählen wir so viele, ohne durcheinanderzukommen?“ Die Kinder legen in jede Mulde eines Eierkartons für zehn Eier einen Kern. Ist ein Karton voll, sind es zehn. Am Ende zählen alle die vollen Kartons, „zehn, zwanzig, dreißig …“, und dann die übrigen Kerne.", "Große Mengen einzeln zu zählen, überfordert schnell. Das Bündeln in Zehner ist eine Grundidee unseres Zahlensystems und wird mit dem Eierkarton greifbar. Kinder, die noch nicht weit zählen, füllen Kartons, ältere zählen die Zehner.", "Kleingruppe, arbeitsteilig", "Messer (nur Fachkraft), Löffel, Sieb, Schüsseln, Eierkartons für zehn Eier"],
+    sc: ["Das Ergebnis kommt neben die Schätzungen auf das Plakat. Die Kinder schauen: Wer lag nah dran, wer weit daneben? Die Kerne trocknen danach als Legematerial für die Mathe-Ecke.", "Der Vergleich würdigt jede Schätzung und zeigt, wie groß der Abstand ist. Beim nächsten Kürbis schätzen die Kinder oft schon genauer.", "Kleingruppe", "Plakat, Backblech zum Trocknen"]
   },
   {
-    id: "herbst-e-laubmuster", t: "Muster aus Laub", k: "Die Kinder legen mit bunten Blättern Muster, setzen angefangene Reihen fort und erfinden eigene.",
-    kat: "Gestalten", jz: ["herbst"], d: 25, v: 0, g: ["klein"], o: ["draussen", "drinnen"], m: "alltag",
-    gz: "Die Kinder erkennen Muster und Regelmäßigkeiten und setzen sie fort.",
-    fz: ["Die Kinder erkennen Regeln, indem sie eine angefangene Blätterreihe fortsetzen.", "Die Kinder entwickeln eigene Muster, indem sie sich eine Reihenfolge ausdenken und andere sie fortsetzen lassen."],
-    s: "Nur Laub vom Boden sammeln. Laub vorher auf Äste, Glas und Tierkot prüfen. Hände danach waschen.",
-    e: ["Die Kinder sammeln Blätter in unterschiedlichen Farben und Größen. Die Fachkraft legt schon eine Reihe: rot, gelb, rot, gelb. „Was kommt als Nächstes?“", "Das Sammeln bezieht die Kinder ein und schärft den Blick für Unterschiede. Die angefangene Reihe zeigt die Aufgabe, ohne sie zu erklären.", "Kleingruppe im Freien", "Körbe"],
-    h: ["Die Kinder setzen die Reihe fort und begründen ihre Wahl. Die Fachkraft legt schwierigere Muster: groß, klein, klein oder rot, gelb, braun. Danach erfindet ein Kind ein Muster, und ein anderes setzt es fort. Wer schon sicher ist, legt ein Muster im Kreis.", "Muster zu erkennen und fortzusetzen ist eine Grundlage für das Verständnis von Regeln in der Mathematik. Die Schwierigkeit lässt sich leicht anpassen. Das Erfinden eigener Muster zeigt, ob die Regel verstanden ist.", "Kleingruppe, Partnerarbeit", "Gesammelte Blätter"],
-    sc: ["Alle Muster werden zu einer langen Laubschlange verbunden. Die Kinder gehen daran entlang und sprechen die Muster laut mit: „Rot, gelb, rot, gelb …“", "Das Mitsprechen macht den Rhythmus des Musters hörbar. Ein Foto der Laubschlange kann später aufgehängt werden.", "Gruppe", "Optional Kamera"]
+    id: "herbst-e-eichhoernchen", t: "Wo hat das Eichhörnchen seine Vorräte versteckt?", k: "Mit einem einfachen Gartenplan und Wegbeschreibungen suchen die Kinder die Verstecke eines Eichhörnchens.",
+    kat: "Bewegungsspiele", jz: ["herbst"], neu: "2026-11-05", d: 30, v: 15, g: ["klein"], o: ["draussen"], m: "alltag",
+    gz: "Die Kinder orientieren sich im Raum und lernen Lagebegriffe und einfache Pläne kennen.",
+    fz: ["Die Kinder verstehen und gebrauchen Lagebegriffe wie „unter“, „hinter“, „neben“ und „links“, indem sie Wegbeschreibungen folgen und selbst welche geben.", "Die Kinder lesen einen einfachen Plan, indem sie gezeichnete Orte im Garten wiederfinden."],
+    s: "Nur im gut einsehbaren Gelände verstecken, nicht in dornigen Hecken, an Wegen oder am Wasser. Statt Nüssen Kastanien oder Eicheln verwenden, wegen möglicher Nussallergien. Die Früchte nicht essen.",
+    e: ["Eine Eichhörnchen-Handpuppe jammert: „Ich habe im Herbst zehn Vorräte versteckt und weiß nicht mehr, wo! Ich habe nur diese Zeichnung.“ Die Fachkraft zeigt einen einfachen Plan des Gartens mit Sandkasten, Bank, Baum und Rutsche. Kreuze markieren die Verstecke.", "Eichhörnchen vergessen tatsächlich viele ihrer Verstecke, aus manchen wachsen später Bäume. Das Sachwissen und die Puppe geben der Suche einen Grund.", "Gruppe im Garten", "Handpuppe, Gartenplan, vorher versteckte Kastanien oder Eicheln"],
+    h: ["Die Kinder suchen zu zweit mit dem Plan. Die Fachkraft hilft mit Lagebegriffen: „Das Kreuz ist unter der Bank“, „hinter dem dicken Baum“. Für ein Versteck gibt es nur eine Wegbeschreibung: „Vom Sandkasten fünf Schritte zur Rutsche, dann links.“ Danach verstecken die Kinder selbst etwas und beschreiben einem anderen Paar den Weg.", "Pläne und Lagebegriffe sind Grundlagen des räumlichen Denkens. Der Wechsel zwischen der Zeichnung von oben und dem Garten verlangt einen Perspektivwechsel. Wer selbst einen Weg beschreibt, zeigt, ob die Begriffe schon sitzen.", "Partnerarbeit", "Pläne, Säckchen für die Funde"],
+    sc: ["Alle bringen ihre Funde zum Eichhörnchen und zählen gemeinsam. „Ich hatte zehn versteckt. Wie viele fehlen noch?“ Gibt es eine Lücke, gehen die Kinder noch einmal mit dem Plan los.", "Das Zählen und Vergleichen verbindet die Raumerfahrung mit Zahlen. Die Frage nach den fehlenden Vorräten ist eine erste Begegnung mit dem Ergänzen.", "Sitzkreis im Garten", "Säckchen mit den Funden"]
   }
 ]);

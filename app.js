@@ -218,6 +218,14 @@
     return String(angebot.id).startsWith("eigen-");
   }
 
+  // Mitgelieferte Angebote mit neuSeit (JJJJ-MM-TT) gelten so viele Tage lang als neu.
+  const NEU_TAGE = 30;
+  function istNeu(a) {
+    if (istEigen(a) || !a.neuSeit) return false;
+    const seit = Date.parse(a.neuSeit);
+    return !isNaN(seit) && Date.now() - seit < NEU_TAGE * 86400000;
+  }
+
   function bereichVon(id) {
     return ALLE_BEREICHE.find((x) => x.id === id);
   }
@@ -451,6 +459,7 @@
   function karte(a) {
     return `
       <article class="card">
+        ${istNeu(a) ? `<span class="badge-neu">Neu</span>` : ""}
         ${sterne(a)}
         ${druckKnopf(a)}
         <div class="area"><span class="dot dot-${esc(a.bereich)}"></span>${esc(herkunft(a))}</div>
